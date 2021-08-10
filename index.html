@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <section class="accueil">
+        <div class="overlay">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo" />
+            </div>
+            <ul class="menu">
+                <li><a href="#home" class="menu__link">Home</a></li>
+                <li><a href="#about" class="menu__link">About</a></li>
+                <li><a href="#work" class="menu__link">Work</a></li>
+                <li><a href="#contact" class="menu__link">Contact</a></li>
+            </ul>
+            <div class="toggle">
+                <i class="fas fa-bars ouvrir"></i>
+                <i class="fas fa-times fermer"></i>
+            </div>
+        
+            <div class="accueil__text">
+                <div class="accueil__text__top">
+                    <div class="sep"></div>
+                    <p>we are in strasbourg</p>
+                </div>
+                <div class="accueil__text__mid">
+                    <h1>We are a modern digital agency.</h1>
+                </div>
+                <div class="accueil__text__bot">
+                    <p>scroll down <i class="fas fa-long-arrow-alt-down"></i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" data-aos="fade-up" id="about">
+        <div class="container">
+            <div class="entete">
+                <div class="entete__slogan">
+                    we are creative
+                </div>
+                <div class="entete__titre">
+                    <h2>What we do.</h2>
+                    <div class="barre"></div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius amet deserunt quis non at deleniti fugiat minus cum animi. Eaque non beatae blanditiis distinctio perspiciatis unde laudantium iusto, quaerat quas!</p>
+                </div>
+            </div>
+            <div class="about__corps">
+                <div class="about__corps__block">
+                    <img src="img/about_branding.jpg" alt="branding" />
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore minima possimus sed corporis alias distinctio dignissimos.</p>
+                </div>
+                <div class="about__corps__block">
+                    <img src="img/about_websites.jpg" alt="websites" />
+                    <h3>Websites</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore minima possimus sed corporis alias distinctio dignissimos.</p>
+                </div>
+                <div class="about__corps__block">
+                    <img src="img/about_strategy.jpg" alt="strategy" />
+                    <h3>Strategy</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore minima possimus sed corporis alias distinctio dignissimos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" data-aos="fade-up" id="work">
+        <div class="container">
+            <div class="entete">
+                <div class="entete__slogan">
+                    we are working hard
+                </div>
+                <div class="entete__titre">
+                    <h2>Our work.</h2>
+                    <div class="barre"></div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius amet deserunt quis non at deleniti fugiat minus cum animi. Eaque non beatae blanditiis distinctio perspiciatis unde laudantium iusto, quaerat quas!</p>
+                </div>
+            </div>
+            <div class="work__corps">
+                <div class="work__corps__block">
+                    <img src="img/work_burgy.jpg" alt="burgy" />
+                    <h3>Burgy</h3>
+                    <div class="barre"></div>
+                </div>
+                <div class="work__corps__block">
+                    <img src="img/work_milky.jpg" alt="milky" />
+                    <h3>Milky</h3>
+                    <div class="barre"></div>
+                </div>
+                <div class="work__corps__block">
+                    <img src="img/work_nike.jpg" alt="nike" />
+                    <h3>Nike</h3>
+                    <div class="barre"></div>
+                </div>
+                <div class="work__corps__block">
+                    <img src="img/work_porsche.jpg" alt="porsche" />
+                    <h3>Porsche</h3>
+                    <div class="barre"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="entete" data-aos="zoom-in" data-aos-delay="300">
+                <div class="entete__slogan">
+                    let's create together
+                </div>
+                <div class="entete__titre">
+                    <h2>Contact us.</h2>
+                    <div class="barre"></div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius amet deserunt quis non at deleniti fugiat minus cum animi. Eaque non beatae blanditiis distinctio perspiciatis unde laudantium iusto, quaerat quas!</p>
+                    <button class="btn">contact us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
